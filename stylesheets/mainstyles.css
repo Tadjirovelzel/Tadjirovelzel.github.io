@@ -1,0 +1,104 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    top:0px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/headerbackground.jpg");
+    height: 955px;
+    display:block;
+}
+
+#machinetitle{
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.machinetype{
+    padding: 30px;
+}
+
+.machinelist{
+    text-align: center;
+    background-color: rgba(127, 85, 57, 0.8);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+}
+nav{
+    z-index: 100;
+    display:block;
+    width: 100%;
+    position:fixed;
+    top:0;
+    background-color: #7f5539;
+    opacity: 0.8;
+}
+a{
+    color: white;
+}
+nav h3{
+    left: 315px;
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    padding: 20px 90px;
+}
+header h1{
+    opacity:1;
+    font-weight:bold;
+    margin-bottom: 50px;
+    font-size:100px;
+    line-height:80px;
+    text-align: center; 
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: white; 
+}
+
+header h2{
+    opacity:1;
+    font-weight:bold;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+header button{
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 28px;
+    margin: 50 auto;
+}
+
+#headerbox{
+    max-width: 800px;
+    padding: 50px;
+    opacity: 1;
+    background-color: rgba(127, 85, 57, 0.8);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:200px;
+    margin-bottom: 100px;
+}
+table{
+    margin: 0 auto;
+}
+td, th{
+    border: solid 2px white;
+    padding:30px;
+}
