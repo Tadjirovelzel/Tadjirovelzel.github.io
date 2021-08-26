@@ -100,7 +100,7 @@ td, th{
     padding:30px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (min-height: 1100px){
     header{
         height:1800px;
     }
