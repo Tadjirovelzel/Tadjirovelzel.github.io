@@ -13,7 +13,7 @@ header{
     display:block;
 }
 nav{
-    height: 4.5em;
+    max-height:4.5em;
     overflow: hidden;
     z-index: 100;
     display:block;
@@ -30,13 +30,21 @@ p a{
 nav a{
     color: white;
 }
-nav h3{
-    left: 120px;
+nav .navigationelement{
     position: relative;
     display: inline-block;
     font-size: 1.3em;
     color: white;
-    padding: 1.25em 4.5em;
+    padding: 1.25em 1em;
+    
+}
+
+#navbox{
+    max-width:75%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
 }
 header h1{
     opacity:1;
