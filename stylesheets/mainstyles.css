@@ -33,9 +33,11 @@ nav a{
 nav .navigationelement{
     position: relative;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 100%;
     color: white;
-    padding: 1.25em 4em;
+    width:14.28%;
+    padding: 1em;
+    height: auto;
     
 }
 
@@ -50,8 +52,8 @@ header h1{
     opacity:1;
     font-weight:bold;
     margin-bottom: 50px;
-    font-size:100px;
-    line-height:80px;
+    font-size:6em;
+    line-height:0.5em;
     text-align: center; 
     margin-top: 0px;
     margin-bottom: 40px;
@@ -74,12 +76,12 @@ header button{
     background-color: black;
     padding: 20px 40px;
     cursor: pointer;
-    font-size: 28px;
+    font-size: 1.6em;
     margin: 50 auto;
 }
 
 #headerbox{
-    max-width: 740px;
+    max-width: 45em;
     padding: 30px;
     opacity: 1;
     background-color: rgba(0, 166, 214, 0.5);
