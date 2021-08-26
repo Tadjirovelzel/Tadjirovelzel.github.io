@@ -3,15 +3,7 @@
     margin: 0;
 }
 
-header{
-    top:0px;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../images/headerbackground.jpg");
-    height: 100vh;
-    display:block;
-}
+
 nav{
     min-height: 4.5em;
     max-height:4.5em;
@@ -23,10 +15,6 @@ nav{
     top:0;
     background-color: #00a6d6;
     opacity: 0.95;
-}
-
-p a{
-    color: #00a6d6;
 }
 nav a{
     color: white;
@@ -49,6 +37,17 @@ nav .navbox{
     flex-direction: row;
     align-items:normal;
 }
+
+header{
+    top:0px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/headerbackground.jpg");
+    height: 100vh;
+    display:block;
+}
+
 header h1{
     opacity:1;
     font-weight:bold;
@@ -92,6 +91,11 @@ header button{
     top:200px;
     margin-bottom: 100px;
 }
+
+p a{
+    color: #00a6d6;
+}
+
 table{
     margin: 0 auto;
 }
@@ -99,9 +103,9 @@ td, th{
     border: solid 2px white;
     padding:30px;
 }
-
-@media only screen and (min-height: 1100px) and (orientation: portrait){
+@media only screen and (max-width: 450px)
+{
     header{
-        height:2100px;
+        height: 914px;
     }
 }
