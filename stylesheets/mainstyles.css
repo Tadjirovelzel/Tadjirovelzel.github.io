@@ -39,8 +39,8 @@ nav .navigationelement{
     
 }
 
-#navbox{
-    max-width:75%;
+nav .navbox{
+    max-width:50%;
     margin:0 auto;
     display: flex;
     flex-direction: row;
