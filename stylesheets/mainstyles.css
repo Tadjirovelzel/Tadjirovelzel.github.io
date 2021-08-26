@@ -13,6 +13,7 @@ header{
     display:block;
 }
 nav{
+    height: 4.5em;
     overflow: hidden;
     z-index: 100;
     display:block;
@@ -20,7 +21,7 @@ nav{
     position:fixed;
     top:0;
     background-color: #00a6d6;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 p a{
@@ -33,9 +34,9 @@ nav h3{
     left: 120px;
     position: relative;
     display: inline-block;
-    font-size: 22px;
+    font-size: 1.3em;
     color: white;
-    padding: 20px 70px;
+    padding: 1.25em 4.5em;
 }
 header h1{
     opacity:1;
