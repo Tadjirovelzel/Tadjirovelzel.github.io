@@ -5,6 +5,7 @@
 <head>
         <title>Inventory Delft</title>
         <link href="../stylesheets/mainstyles.css" rel="stylesheet">
+        <link href="../stylesheets/machinestyles.css" rel="stylesheet">
 </head>
 
 
@@ -16,13 +17,19 @@
         <h3 class ='navigationelement'><a>Electronics Lab</a></h3>
         <h3 class ='navigationelement'><a>Manuals</a></h3>       
         <h3 class ='navigationelement'><a>Contact</a></h3>
+        <h3 class ='navigationelement'><a href="https://tudelft.toolsquare.io/" target="_blank">Toolsquare</a></h3>
  
     </nav> 
     
 
 </body>
     <section class='machinelist'>
-        <h1 id='machinetitle'>The following machines are currently available</h3>
+
+        <h1 id='availablemachinetitle'>The following machines are currently available</h3>
+        
+            <p>The use of these machines requires permission in Toolsquare. You can make an account on Toolsquare <a href='https://tudelft.toolsquare.io/'>here</a></p>
+        <p>Click on the title of a machine to access its page. On this page you can see a manual, compatible accessories, tools and materials. </p>
+
         <h2 class='machinetype'>3D Printers</h2>
         <table class='machinetable' id='printertable'>
             <tr> <!--Index-->
@@ -58,10 +65,16 @@
 
         <h2 class='machinetype'>Laser Cutters</h2>
         <table class='machinetable' id='lasertable'>
+            <tr> <!--Index-->
+                <th>Machine</th>
+                <th>Count</th>
+                <th>Remark</th>
+            </tr>
+
             <tr> <!--Lion Laser-->
-                <th>Lion Laser M1300</th>
-                <th>1</th>
-                <th>Great for large cuts</th>
+                <td>Lion Laser M1300</td>
+                <td>1</td>
+                <td>Great for large cuts</td>
             </tr>
 
             <tr><!--Epilog laser table-->

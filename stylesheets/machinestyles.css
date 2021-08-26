@@ -1,0 +1,28 @@
+#availablemachinetitle{
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.machinetype{
+    padding: 30px;
+}
+
+.machinelist{
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.8);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+    margin-top: 70px;
+    width: 80%;
+    position: relative;
+}
+
+.machinetable{
+    width: 75%;
+    
+}

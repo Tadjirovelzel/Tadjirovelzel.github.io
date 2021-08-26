@@ -12,28 +12,6 @@ header{
     height: 970px;
     display:block;
 }
-
-#machinetitle{
-    font-size: 35px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.machinetype{
-    padding: 30px;
-}
-
-.machinelist{
-    overflow: hidden;
-    text-align: center;
-    background-color: rgba(127, 85, 57, 0.8);
-    background-size: cover;
-    background-position: center;
-    display: block;
-    margin-top: 80px;
-    margin-left: 200px;
-    margin-right: 200px;
-    position: relative;
-}
 nav{
     overflow: hidden;
     z-index: 100;
@@ -41,10 +19,14 @@ nav{
     width: 100%;
     position:fixed;
     top:0;
-    background-color: #7f5539;
+    background-color: #00a6d6;
     opacity: 0.8;
 }
-a{
+
+p a{
+    color: #00a6d6;
+}
+nav a{
     color: white;
 }
 nav h3{
@@ -77,6 +59,7 @@ header h2{
 
 header button{
     font-weight: bold;
+    opacity: 0.9;
     border: none;
     color: white;
     background-color: black;
@@ -87,10 +70,10 @@ header button{
 }
 
 #headerbox{
-    max-width: 800px;
-    padding: 50px;
+    max-width: 740px;
+    padding: 30px;
     opacity: 1;
-    background-color: rgba(127, 85, 57, 0.8);
+    background-color: rgba(0, 166, 214, 0.5);
     position: relative;
     margin-left: auto;
     margin-right: auto;
