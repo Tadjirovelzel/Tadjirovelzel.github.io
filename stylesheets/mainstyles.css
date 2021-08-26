@@ -9,7 +9,7 @@ header{
     background-size: cover;
     background-position: center;
     background-image: url("../images/headerbackground.jpg");
-    height: 970px;
+    height: 100vh;
     display:block;
 }
 nav{
