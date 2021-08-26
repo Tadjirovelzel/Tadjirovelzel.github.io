@@ -35,16 +35,16 @@ nav .navigationelement{
     display: inline-block;
     font-size: 1.3em;
     color: white;
-    padding: 1.25em 1em;
+    padding: 1.25em 4em;
     
 }
 
 nav .navbox{
-    max-width:50%;
+    max-width:100%;
     margin:0 auto;
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items:normal;
 }
 header h1{
     opacity:1;
