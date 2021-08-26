@@ -100,7 +100,7 @@ td, th{
     padding:30px;
 }
 
-@media only screen and (min-height: 1100px){
+@media only screen and (min-height: 1100px) and (orientation: portrait){
     header{
         height:2100px;
     }
