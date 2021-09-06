@@ -1,0 +1,22 @@
+.spectable{
+    display:inline-block;
+    width: 50%;
+    margin-bottom:50px;
+    margin-top: 20px;
+}
+td, th{
+    width:25%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.spectable p{
+    width:50%;
+    text-align:left;
+}
+
+.machineimage{
+    border-radius:100%;
+    display:inline-block;
+    height:20rem;
+    width:20rem;
+}
