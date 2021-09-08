@@ -19,4 +19,6 @@ td, th{
     display:inline-block;
     height:20rem;
     width:20rem;
+    display:inline-block;
+    object-fit: cover;
 }
