@@ -1,0 +1,41 @@
+.staffinfo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: limegreen;
+    height: 30rem;
+}
+
+.leftinfo{
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 1.5rem;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.staffname{
+    font-size: 3em;
+    padding-bottom: 1.2rem;
+    width:100%;
+}
+.imageright{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.staffinfofirstbar{
+    align-items: start;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+.stafftext{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
