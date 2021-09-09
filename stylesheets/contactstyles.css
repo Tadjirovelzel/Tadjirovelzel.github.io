@@ -1,41 +1,113 @@
+
 .staffinfo{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items:center;
     width: 100%;
-    background-color: limegreen;
-    height: 30rem;
+}
+.staffinfofirstbar{
+    align-items: start;
+    display: flex;
+    width: 75%;
+    justify-content: stretch;
 }
 
 .leftinfo{
     margin-top: 2rem;
-    display: flex;
-    margin-left: 1.5rem;
-    width: 50%;
-    justify-content: center;
+    display: inline-flex;
+    width: 60%;
+
+    justify-content: flex-start;
     flex-direction: column;
 }
-
-.staffname{
-    font-size: 3em;
-    padding-bottom: 1.2rem;
-    width:100%;
-}
 .imageright{
+    display: inline-flex;
+    margin-top: 3rem;
+    width: 20rem;
+    margin-left: 2rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.imageleft{
+    display: inline-flex;
+    margin-right: 2rem;
     margin-top: 3rem;
     width: 20rem;
     height: 20rem;
     object-fit: cover;
     border-radius: 100%;
 }
-
-.staffinfofirstbar{
-    align-items: start;
-    display: flex;
+.staffinfosecondbar{
     width: 75%;
-    justify-content: space-between;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.staffname{
+    font-size: 3em;
+    padding-bottom: 1.2rem;
+    width:100%;
+    text-align: left;
+    color: rgba(255,255,255,1);
 }
 .stafftext{
     font-size: 1.5rem;
     width: 100%;
-    text-align: center;
+    text-align: left;
+}
+
+.rolestitle{
+    text-align: left;
+}
+
+
+
+ul{
+    max-width: 40rem;
+    margin-left: 0;
+    padding-left: 0;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+li{
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+#teunfirst{
+    margin-top: 3rem;
+}
+
+#teun{
+    background-color: rgba(255, 156, 156, 1)
+}
+
+#tadjiro{
+    background-color:  rgba(50,30,30,1)
+}
+
+.stafftext.tadjiro
+{
+    color: rgba(200,200,200,1);
+}
+
+.rolestitle.tadjiro,
+.roleslist.tadjiro
+{
+    color: rgba(150,150,150,1);
+}
+
+.roleslist.teun,
+.rolestitle.teun{
+    color: rgba(255,220,220,1);
+}
+.stafftext.teun
+{
+    color: rgba(255,255,255,1);
 }
