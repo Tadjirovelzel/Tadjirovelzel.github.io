@@ -134,10 +134,26 @@ body .mainsection{
     padding-bottom: 0;
 }
 
-@media only screen and (max-width: 450px)
+@media only screen and (max-width: 600px),  (orientation: portrait)
 {
     .imageright,
     .imageleft{
-        width: 100vw;
+        width: 20rem;
+        margin: 3rem auto;
     }
+    .staffname{
+        text-align: center;
+    }
+    .leftinfo,.rightinfo{
+        width:100%;
+    }
+    .staffinfofirstbar
+    {
+        justify-content: center;
+        flex-flow: column;
+    }
+    .staffinfofirstbar div:first-child{
+        order: 2;
+    }
+
 }
