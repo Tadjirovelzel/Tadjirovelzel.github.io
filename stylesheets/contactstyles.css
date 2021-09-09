@@ -134,7 +134,7 @@ body .mainsection{
     padding-bottom: 0;
 }
 
-@media only screen and (max-width: 600px),  (orientation: portrait)
+@media only screen and (max-width: 1000px),  (orientation: portrait)
 {
     .imageright,
     .imageleft{
