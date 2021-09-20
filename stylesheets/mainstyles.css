@@ -21,21 +21,19 @@ nav a{
 }
 nav .navigationelement{
     position: relative;
-    display: inline-block;
     font-size: 125%;
-    color: white;
-    width:14.28%;
     padding: 1em;
     height: auto;
-    
 }
 
 nav .navbox{
-    max-width:100%;
+    width: 75%;
     margin:0 auto;
     display: flex;
     flex-direction: row;
     align-items:normal;
+    justify-content: space-between;
+
 }
 
 header{
