@@ -1,0 +1,23 @@
+{
+  "name": "tadjirovelzel.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "updateMachines.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tadjirovelzel/Tadjirovelzel.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tadjirovelzel/Tadjirovelzel.github.io/issues"
+  },
+  "homepage": "https://github.com/Tadjirovelzel/Tadjirovelzel.github.io#readme",
+  "dependencies": {
+    "puppeteer": "^11.0.0"
+  }
+}
