@@ -1,0 +1,37 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #00a6d6;
+
+}
+.formBody{
+    width: 80%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: white;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formContent{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    display:flex;
+}
+
+.formContent h1{
+    width: 80%;
+    font-size: 500%;
+    margin-bottom:3rem;
+}
+.formContent p{
+    margin: 30px;
+    font-size: 1.5rem;
+}
