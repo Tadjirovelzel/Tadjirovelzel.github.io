@@ -14,7 +14,7 @@ async function start(){
     await page.screenshot({path: "username.png", fullPage: true}) //confirm written data with screenshot
 
     await Promise.all([await page.click("#login-button"), await page.waitForNavigation()]) //click button and wait to navigate
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(1000)
     await page.screenshot({path: "loggedin.png", fullPage: true})
 
     let laserStatus = await page.$eval("tr.el-table__row:nth-child(2) > td:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)", el => el.textContent)

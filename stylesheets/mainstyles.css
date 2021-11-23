@@ -1,4 +1,5 @@
 *{
+    font-family: 'Acumin';
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
@@ -13,9 +14,14 @@ nav{
     width: 100%;
     position:fixed;
     top:0;
-    background-color: #293741;
-    opacity: 0.95;
+    background-color: #3D4247;
+    opacity: 1;
 }
+nav img{
+    min-height: 4.5em;
+    max-height: 4.5em;
+}
+
 nav a{
     color: white;
 }
@@ -82,7 +88,7 @@ header button{
     max-width: 45em;
     padding: 30px;
     opacity: 1;
-    background-color: #293741;
+    background-color: #3D4247;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -96,11 +102,18 @@ p a{
 }
 
 table{
-    margin: 1.2em auto;
+    margin: 3em auto;
+}
+
+.tablehead{
+    padding:30px;
+    background-color: #DAE13D;
+    margin: 0px;
 }
 td, th{
-    border: solid 2px white;
+    border: solid 2px black;
     padding:30px;
+    margin: 0px;
 }
 @media only screen and (max-width: 450px)
 {
