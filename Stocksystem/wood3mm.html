@@ -3,8 +3,9 @@
 <html>
 
 <head>
-        <title>Inventory Delft</title>
-        <link href="stockstyles/MainStockStyles.css" rel="stylesheet">
+    <script src="../js/stockconfirmation.js"></script>
+    <title>Inventory Delft</title>
+    <link href="stockstyles/MainStockStyles.css" rel="stylesheet">
 </head>
 
 
@@ -15,7 +16,7 @@
         <h1>Wood Use Form!</h1>
         
         <p>When using wood from the makerspace, please fill in the details below</p>
-        <section class="plateThicknessSection">
+        <section class="plateThicknessSection formElement">
             <label for="plateThickness">Wood Thickness</label>
             <select name="thickness" id="plateThickness">
                 <option value="3mm">3mm</option>
@@ -24,12 +25,21 @@
             </select>
         </section>
 
-        <section class="numberOfItemsSection">
+        <section class="plateSizeSection formElement">
+            <label for="plateSize">Wood Thickness</label>
+            <select name="thickness" id="plateThickness">
+                <option value="600x300">600 x 300 mm</option>
+                <option value="1250 x 900">1200 x 900 mms</option>
+                <option value="9mm">9mm</option>
+            </select>
+        </section>
+        
+        <section class="numberOfItemsSection formElement">
             <label for="numberOfItems">Number of plates</label>
             <input type="number" value="1" step="1" id="numberOfItems">
         </section>
 
-        <section class="confirmSection">
+        <section class="confirmSection formElement">
             <input type="submit" value="Confirm" id="confirmButton">
         </section>
             

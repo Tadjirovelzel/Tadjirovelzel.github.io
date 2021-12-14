@@ -1,10 +1,11 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    font-weight: bold;
 }
 
 body{
-    background-color: #00a6d6;
+    background-color: #3D4247;
 
 }
 .formBody{
@@ -25,8 +26,13 @@ body{
     align-items: center;
     display:flex;
 }
+.formElement{
+    margin: 1rem;
+    text-align: left;
+}
 
 .formContent h1{
+    left: 50%;
     width: 80%;
     font-size: 500%;
     margin-bottom:3rem;
